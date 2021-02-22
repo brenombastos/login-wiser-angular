@@ -10,7 +10,7 @@
 }
 
 .imagem-de-fundo {
-    background-image: url(https://github.com/brenombastos/login-wiser-angular/blob/f839d99f403ffb9aa6a6be2561f75b2b2cfd9f5c/src/assets/imagens/shutterstock_12208099181.svg);
+    background-image: url(/login-wiser-angular/src/assets/imagens/imagem-login.PNG);
     position: absolute;
     width: 766px;
     height: 768px;

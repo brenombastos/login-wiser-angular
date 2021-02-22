@@ -1,7 +1,7 @@
 <section class="fundo">
     <div class="efeito-de-fundo">
-        <div class="imagem-de-fundo">
-        </div>
+        <p class="imagem-de-fundo">
+        </p>
     </div>
     <h2 class="titulo-pagina">
         Olá, seja <br>
@@ -18,17 +18,17 @@
     <h5 class="e-mail">E-mail</h5>
 
     <div class="rectangle1">
-        <input placeholder="user.name@mail.com" value="" id="e-mail" type="text">
+        <input [(ngModel)]="usuario.email" placeholder="user.name@mail.com" value="" id="e-mail" type="text">
     </div>
 
     <h5 class="senha">Senha</h5>
 
     <div class="rectangle2">
-        <input placeholder="*******" value="" id="senha" type="text">
+        <input [(ngModel)]="usuario.senha" placeholder="*******" value="" id="senha" type="password">
     </div>
 
     <div>
-        <button class="entrar">ENTRAR</button>
+        <button type="submit" class="entrar" name="action" (click)="fazerLogin()">ENTRAR</button>
     </div>
 
     <div>
@@ -37,7 +37,5 @@
             Clique <a href="">aqui</a>
         </p>
     </div>
-
-
 
 </section>
