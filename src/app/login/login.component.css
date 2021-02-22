@@ -1,0 +1,10 @@
+.imagem-inicial {
+    /* Rectangle 8 */
+    position: absolute;
+width: 766px;
+height: 768px;
+left: -1px;
+top: 0px;
+
+background: url(https://github.com/brenombastos/login-wiser-angular/blob/master/src/assets/imagens/imagem-login.jpg.)
+}
