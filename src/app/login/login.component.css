@@ -4,13 +4,13 @@
     height: 768px;
     left: -1px;
     top: 0px;
-
+    
     background: linear-gradient(180deg, #130525 0%, rgba(105, 57, 153, 0) 100%);
     transform: rotate(-180deg);
 }
 
 .imagem-de-fundo {
-    background-image: url(/login-wiser-angular/src/assets/imagens/imagem-login.PNG);
+    background-image: url(/login-wiser-angular/src/assets/imagens/imagem-login.PNG);    
     position: absolute;
     width: 766px;
     height: 768px;
